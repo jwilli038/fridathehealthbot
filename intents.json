@@ -12,9 +12,27 @@
             "context": [""]
         },
         {
+            "tag": "Gen Whale Meeting",
+            "patterns": ["BGen", "Whale","KGW","DCG-T"],
+            "responses": ["Please email Patti Mills", "Transformation is going well!"],
+            "context": [""]
+        },
+        {
             "tag": "thanks",
             "patterns": ["Thanks", "okay","Thank you","thankyou", "That's helpful", "Awesome, thanks", "Thanks for helping me", "wow", "great"],
             "responses": ["Happy to help!", "Any time!","you're welcome", "My pleasure"],
+            "context": [""]
+        },
+        {
+            "tag": "conference room",
+            "patterns": ["cr", "book","reserve","conference", "room"],
+            "responses": ["Are you looking for a conference room, which one?", "I can help, which conference room would you like to reserve?"],
+            "context": [""]
+        },
+         {
+            "tag": "specific room",
+            "patterns": ["2319", "2514","cr","conference room"],
+            "responses": ["Please visit the SpOC SP site for conference rooms, https://usaf.dps.mil/sites/USSF-HQ-SpOC/AO/StaffSlides/Forms/AllItems.aspx"],
             "context": [""]
         },
         {
@@ -321,6 +339,12 @@
             "tag": "do",
             "patterns": ["what can you do for me","what is your work","what is your purpose","how can you help me","what can you help me do"],
             "responses": ["my work here is quite simple and structered. I offer services like:"],
+            "context": [""]
+        },
+        {
+            "tag": "Teams",
+            "patterns": ["Teams","Training","Channel","Design"],
+            "responses": ["This sounds like a Teams or a Training question, please visit the SpOC digital service page","Did you know there are Teams formal training classes? Sign up now"],
             "context": [""]
         },
         {
