@@ -13,8 +13,8 @@
         },
         {
             "tag": "Gen Whale Meeting",
-            "patterns": ["BGen", "Whale","KGW","DCG-T"],
-            "responses": ["Please email Patti Mills", "Transformation is going well!"],
+            "patterns": ["BGen", "Whale","KGW","Montgomery", "meeting"],
+            "responses": ["Please email Patti Mills for any meeting requests", "Who would you like to meet with?"],
             "context": [""]
         },
         {
@@ -32,7 +32,7 @@
          {
             "tag": "specific room",
             "patterns": ["2319", "2514","cr","conference room"],
-            "responses": ["Please visit the SpOC SP site for conference rooms, https://usaf.dps.mil/sites/USSF-HQ-SpOC/AO/StaffSlides/Forms/AllItems.aspx"],
+            "responses": ["https://usaf.dps.mil/sites/USSF-HQ-SpOC/AO/StaffSlides/Forms/AllItems.aspx"],
             "context": [""]
         },
         {
