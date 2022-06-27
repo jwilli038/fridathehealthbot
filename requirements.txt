@@ -1,6 +1,5 @@
 numpy == 1.23.0
 pickle5 == 0.0.5
-json == 0.1.0
 flask == 2.1.2
 nltk == 3.7
 keras == 2.9.0
