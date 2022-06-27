@@ -1,13 +1,15 @@
 # libraries
 import random
 from tensorflow.keras.optimizers import SGD
-from keras.layers import Dense, Dropout
+from tensorflow.keras.layers import Dense, Dropout
 from keras.models import load_model
-from keras.models import Sequential
+from tensorflow.keras.models import Sequential
 import numpy as np
 import pickle
 import json
 import nltk
+import h5py
+
 nltk.download('omw-1.4')
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
