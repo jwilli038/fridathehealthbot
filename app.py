@@ -1,7 +1,7 @@
 # libraries some notes
 import random
 import numpy as np
-import pickle
+import pickle5 as pickle
 import json
 from flask import Flask, render_template, request
 #from flask_ngrok import run_with_ngrok
