@@ -1,4 +1,4 @@
-# libraries
+# libraries some notes
 import random
 import numpy as np
 import pickle
