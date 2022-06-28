@@ -5,7 +5,7 @@ import pickle5 as pickle
 import json
 from flask import Flask, render_template, request
 #from flask_ngrok import run_with_ngrok
-import nltk
+import nltk; import nltk.downloader()
 from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
