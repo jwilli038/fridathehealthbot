@@ -1,2 +1,2 @@
-wordnet 
+wordnet1
 punkt
