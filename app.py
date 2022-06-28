@@ -1,8 +1,6 @@
 # libraries some notes
+import nltk
 from nltk.stem import WordNetLemmatizer
-lemmatizer = WordNetLemmatizer()
-nltk.download("punkt")
-nltk.download("wordnet")
 import random
 import numpy as np
 import pickle5 as pickle
@@ -11,7 +9,7 @@ from flask import Flask, render_template, request
 #from flask_ngrok import run_with_ngrok
 from keras.models import load_model
 
-
+lemmatizer = WordNetLemmatizer()
 
 # chat initialization
 model = load_model("chatbot_model.h5")
