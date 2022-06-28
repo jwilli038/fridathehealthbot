@@ -1,5 +1,4 @@
 # libraries some notes
-import nltk
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import random
