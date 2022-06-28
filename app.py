@@ -1,6 +1,8 @@
 # libraries some notes
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
+nltk.download("punkt")
+nltk.download("wordnet")
 import random
 import numpy as np
 import pickle5 as pickle
